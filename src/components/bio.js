@@ -32,7 +32,6 @@ const Bio = () => {
   `)
 
   const { author } = data.site.siteMetadata
-  console.log(data.avatar)
   return (
     <div
       style={{
