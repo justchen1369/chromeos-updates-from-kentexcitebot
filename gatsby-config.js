@@ -51,7 +51,7 @@ module.exports = {
                   embedURL: videoId =>
                     `https://www.youtube-nocookie.com/embed/${videoId}`,
                 },
-              ]
+              ],
             },
           },
           `gatsby-remark-prismjs`,
@@ -65,20 +65,20 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        //trackingId: `ADD YOUR TRACKING ID HERE`,
+        trackingId: `UA-165908997-1`,
       },
     },
     `gatsby-plugin-feed`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `Chrome Updates and News`,
+        short_name: `Chrome Updates and News`,
         start_url: `/`,
-        background_color: `#ffffff`,
-        theme_color: `#663399`,
-        display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`,
+        icon: `static/chrome-512.webp`,
+        background_color: `#fffafa`,
+        theme_color: `#fffafa`,
+        display: `standalone`,
       },
     },
     `gatsby-plugin-react-helmet`,
