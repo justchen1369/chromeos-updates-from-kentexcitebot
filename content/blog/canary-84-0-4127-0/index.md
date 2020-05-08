@@ -1,6 +1,6 @@
 ---
 title: Here's what's new in Chrome OS Canary 84.0.4127.0!
-date: "2020-05-29T00:19:38.284Z"
+date: "2020-04-29T00:19:38.284Z"
 description: "An in-depth look in the the most recent Canary update (84.0.4127.0)"
 ---
 

@@ -4,7 +4,7 @@ module.exports = {
     author: {
       redditUsername: `u/kentexcitebot`,
     },
-    description: `The writings of u/kentexcitebot on chromeos updates`,
+    description: `The writings of u/kentexcitebot on ChromeOS updates.`,
     siteUrl: `https://www.reddit.com/u/kentexcitebot/`,
   },
   plugins: [
