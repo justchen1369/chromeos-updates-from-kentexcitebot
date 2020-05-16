@@ -1,16 +1,17 @@
 ---
 title: Here's what's new in Chrome OS Beta 83.0.4103.31!
-date: "2020-04-29T00:19:44.294Z"
+date: "2020-04-29T00:19:44.000Z"
 description: "An in-depth look in the the most recent Beta update (83.0.4103.31)"
 ---
+
 
 **Chrome OS Beta Channel got updated today - from 83.0.4103.15 to 83.0.4103.31**. This is a small update that rolled out to most Chromebooks. Some Chromebooks were on **83.0.4103.21** before making the jump to **83.0.4103.31**. I will write the notable changes from **83.0.4103.15** to **83.0.4103.31**.
 
 _Note: SafetyNet is still broken in this release. That means Netflix and some apps can't be installed or used._
 
-Notable new features from **83.0.4103.15** to **83.0.4103.31**:
+## Notable new features from 83.0.4103.15 to 83.0.4103.31:
 
-## Chrome OS Settings
+### Chrome OS Settings
 
 * **Power settings**
 
@@ -26,7 +27,7 @@ Notable new features from **83.0.4103.15** to **83.0.4103.31**:
 
   + **New parent consent logging in EDU account addition flow.** Parent consent gets logged to ARI before adding the account to the device. To enable, enable `chrome://flags/enable-edu-coexistence-consent-log` .
 
-## Chrome Settings
+### Chrome Settings
 
 * **Privacy and Security**
 
@@ -38,26 +39,26 @@ These new illustrations can be found in Settings > Privacy and Security, where y
 
 !["The Privacy and Security tab"](./privacy-and-security-tab.png "the Privacy and Security tab")
 
-**Notable fixes from 83.0.4103.15 to 83.0.4103.31:**
+## Notable fixes from 83.0.4103.15 to 83.0.4103.31:
 
-## Chrome OS Lock/Login Screen
+### Chrome OS Lock/Login Screen
 
 + Fixed a critical security issue with the new reveal password implementation in M83. If someone types and deletes a password and then gets up to leave, a passerby could try CTRL+Z to undelete and view the previously entered text. 
 + **Update: they decided to clear the password textfield after 30 seconds (including the edit history) instead of getting rid of Ctrl + Z alone.**
 
-## Family Link
+### Family Link
 
 + Various UI fixes
 
-## Crostini
+### Crostini
 
 + Fixed a crash when launching terminal.
 
-## Ash
+### Ash
 
 + Fixed a crash when removing a notification during its animation out.
 
-## Chrome Sync
+### Chrome Sync
 
 + Fixed a crash when a bookmark is restored after removing (using Undo action) and the corresponding entity is in an unsynced state.
 
